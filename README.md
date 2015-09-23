@@ -22,7 +22,8 @@ Linux Server Configuration
     1. changed from sqlite to postgresql in both database_setup.py and application.py
     2. updated paths to the _secrets.json files to full paths
   7. Edited sshd_config to change ssh port to 2200
-  8. Configured ufw and enabled it
+  8. Configured ufw (deny incoming, allow outgoing, allow www/ssh/2200/ntp) and enabled it
+  9. Updated referrer/ sites for google and facebook authentication to include this IP address
 
 ###4. A list of any third-party resources you made use of to complete this project.
   1. Udacity forums
