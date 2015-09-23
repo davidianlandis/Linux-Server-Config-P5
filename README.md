@@ -25,4 +25,5 @@ Linux Server Configuration
   8. Configured ufw and enabled it
 
 ###4. A list of any third-party resources you made use of to complete this project.
-  1. Udacity forums and stackoverflow
+  1. Udacity forums
+  2. Stackoverflow
