@@ -1,14 +1,14 @@
 # Udacity-Fullstack-Project5
 Linux Server Configuration
 
-##1. The IP address and SSH port so your server can be accessed by the reviewer.
+###1. The IP address and SSH port so your server can be accessed by the reviewer.
   52.89.35.143
   2200
 
-##2. The complete URL to your hosted web application.
+###2. The complete URL to your hosted web application.
   http://52.89.35.143/
   
-##3. A summary of software you installed and configuration changes made.
+###3. A summary of software you installed and configuration changes made.
   1. Installed apache
     a. Installed apache mod for wsgi
     b. Configured 000-default.conf to includ wsgi application alias to a wsgi file that will load the flask web app
@@ -24,5 +24,5 @@ Linux Server Configuration
   7. Edited sshd_config to change ssh port to 2200
   8. Configured ufw and enabled it
 
-##4. A list of any third-party resources you made use of to complete this project.
+###4. A list of any third-party resources you made use of to complete this project.
   1. Udacity forums and stackoverflow
