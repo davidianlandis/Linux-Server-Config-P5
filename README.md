@@ -13,14 +13,14 @@ Linux Server Configuration
     1. Installed apache mod for wsgi
     2. Configured 000-default.conf to includ wsgi application alias to a wsgi file that will load the flask web app
   2. Installed postgresql
-    a. Added "catalog" database and "catalog" user with permissions to that database
+    1. Added "catalog" database and "catalog" user with permissions to that database
   3. Installed pip
-    a. Used pip to install Flask
+    1. Used pip to install Flask
   4. Installed git
   5. Cloned project3 respository to /var/www/html/catalog
   6. Updated application code
-    a. changed from sqlite to postgresql in both database_setup.py and application.py
-    b. updated paths to the _secrets.json files to full paths
+    1. changed from sqlite to postgresql in both database_setup.py and application.py
+    2. updated paths to the _secrets.json files to full paths
   7. Edited sshd_config to change ssh port to 2200
   8. Configured ufw and enabled it
 
