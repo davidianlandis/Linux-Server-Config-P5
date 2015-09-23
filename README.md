@@ -10,8 +10,8 @@ Linux Server Configuration
   
 ###3. A summary of software you installed and configuration changes made.
   1. Installed apache
-      a. Installed apache mod for wsgi
-      b. Configured 000-default.conf to includ wsgi application alias to a wsgi file that will load the flask web app
+    1. Installed apache mod for wsgi
+    2. Configured 000-default.conf to includ wsgi application alias to a wsgi file that will load the flask web app
   2. Installed postgresql
     a. Added "catalog" database and "catalog" user with permissions to that database
   3. Installed pip
